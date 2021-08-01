@@ -78,13 +78,13 @@ header {
         transition: all 300ms linear;
 
         @include xsm {
-            padding: 5% 4%;
+            padding: 2% 4%;
             top: 0;
             background-color: #ffffff;
         }
 
         @include sm {
-            padding: 3% 4%;
+            padding: 2% 4%;
             top: 0;
         }
 
@@ -287,6 +287,9 @@ header {
         // left: 0;
         width: 80%;
         height: auto;
+        @include xsm{
+            width: 90%;
+        }
     }
     .home-box{
         position: relative;
@@ -305,6 +308,11 @@ header {
             // font-family: Zabri;
             // font-family: axiforma-Heavy;
             font-family: Recoleta;
+        }
+        .home-shape{
+            @include xsm{
+                width: 70%;
+            }
         }
     }
 }
@@ -335,6 +343,9 @@ header {
         left: -9%;
         bottom: -15%;
         animation: ror 8s linear infinite alternate;
+        @include xsm{
+            bottom: 0;
+        }
     }
     .solutions-box{
         position: relative;
@@ -346,6 +357,12 @@ header {
             position: absolute;
             animation: flower1 15s linear 0s infinite;
             z-index: 0;
+            @include xsm{
+                width: 70%;
+            }
+            @include sm{
+                width: 80%;
+            }
         }
         .solutions-childbox{
             width: 50%;
@@ -361,6 +378,9 @@ header {
             text-align: center;
             color: #ffffff;
             border-radius: 10px;
+            @include xsm{
+                width: 90%;
+            }
             .solutions-box-sideimg1{
                 position: absolute;
                 width: 40%;
@@ -540,12 +560,24 @@ header {
             left: -13%;
             top: 50%;
             transform: translate(-50%, -50%);
+            @include xsm{
+               display: none;
+            }
+            @include sm{
+               display: none;
+            }
         }
         .form-img2{
             position: absolute;
             right: -29%;
             top: 50%;
             transform: translate(-50%, -50%) rotate(180deg);
+            @include xsm{
+                display: none;
+            }
+            @include sm{
+                display: none;
+            }
         }
         .form-grp{
             width: 100%;
@@ -816,6 +848,11 @@ footer {
         margin-bottom: 0;
         margin-top: 2px;
         text-align: center;
+    }
+    .footer-cloud-img{
+        @include xsm{
+            width: 100%;
+        }
     }
 }
 
