@@ -418,6 +418,7 @@ header {
     position: relative;
     width: 100%;
     height: auto;
+    padding-bottom: 4%;
     .gallery-sideimg{
         position: absolute;
         width: 50%;
@@ -426,6 +427,9 @@ header {
         opacity: 0.7;
         transform: rotate(10deg);
         z-index: 0;
+    }
+    .heading{
+        color: #b52f25;
     }
 }
 
@@ -579,10 +583,11 @@ header {
     }
     .gridbox-title{
         font-family: Recoleta;
-        font-size: 20px;
-        color: #ffc92f;            
+        font-size: 16px;
+        color: #b52f25;            
         margin-top: 10px;
         margin-bottom: 0;
+        text-align: center;
     }
 }
 .contactus{
@@ -857,7 +862,7 @@ footer {
     }
 
     .social-media {
-        width: 190px;
+        // width: 190px;
         // background-color: #fff;
         // display: inline-flex;
         // justify-content: center;

@@ -468,6 +468,7 @@ header .navbar .nav-btn:hover {
   position: relative;
   width: 100%;
   height: auto;
+  padding-bottom: 4%;
 }
 
 .gallery .gallery-sideimg {
@@ -479,6 +480,10 @@ header .navbar .nav-btn:hover {
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
   z-index: 0;
+}
+
+.gallery .heading, .gallery .solutions .solutions-box .solutions-childbox .solutions-title, .solutions .solutions-box .solutions-childbox .gallery .solutions-title {
+  color: #b52f25;
 }
 
 .gridbox {
@@ -548,10 +553,11 @@ header .navbar .nav-btn:hover {
 
 .gridbox .gridbox-title {
   font-family: Recoleta;
-  font-size: 20px;
-  color: #ffc92f;
+  font-size: 16px;
+  color: #b52f25;
   margin-top: 10px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .contactus {
@@ -923,7 +929,6 @@ footer .footer-info .footer-info-text {
 }
 
 footer .social-media {
-  width: 190px;
   text-align: center;
 }
 
