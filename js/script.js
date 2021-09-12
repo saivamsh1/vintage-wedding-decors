@@ -11,176 +11,176 @@ $(document).ready(function () {
 	});
 });
 
-$(document).ready(function () {
-	$('#course').owlCarousel({
-		loop: false,
-		// margin: 7,
-		nav: true,
-		// rewind: true,
-		dots: true,
-		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
-		autoplay: false,
-		// autoplaySpeed: 100,
-		// autoPlay: 20000,
-		// center:true,
-		responsive: {
+// $(document).ready(function () {
+// 	$('#course').owlCarousel({
+// 		loop: false,
+// 		// margin: 7,
+// 		nav: true,
+// 		// rewind: true,
+// 		dots: true,
+// 		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+// 		autoplay: false,
+// 		// autoplaySpeed: 100,
+// 		// autoPlay: 20000,
+// 		// center:true,
+// 		responsive: {
 
-			0: {
-				items: 1
-			},
-			600: {
-				items: 2
-			},
-			1000: {
-				items: 5
-			}
-		}
-	});
-	$('#explore').owlCarousel({
-		loop: false,
-		margin: 10,
-		nav: false,
-		// rewind: true,
-		dots: true,
-		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
-		autoplay: false,
-		// autoplaySpeed: 100,
-		// autoPlay: 20000,
-		// center:true,
-		responsive: {
+// 			0: {
+// 				items: 1
+// 			},
+// 			600: {
+// 				items: 2
+// 			},
+// 			1000: {
+// 				items: 5
+// 			}
+// 		}
+// 	});
+// 	$('#explore').owlCarousel({
+// 		loop: false,
+// 		margin: 10,
+// 		nav: false,
+// 		// rewind: true,
+// 		dots: true,
+// 		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+// 		autoplay: false,
+// 		// autoplaySpeed: 100,
+// 		// autoPlay: 20000,
+// 		// center:true,
+// 		responsive: {
 
-			0: {
-				items: 1
-			},
-			600: {
-				items: 2
-			},
-			1000: {
-				items: 4
-			}
-		}
-	});
-	$('#series').owlCarousel({
-		loop: false,
-		margin: 10,
-		nav: true,
-		// rewind: true,
-		dots: true,
-		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
-		autoplay: false,
-		// autoplaySpeed: 100,
-		// autoPlay: 20000,
-		// center:true,
-		responsive: {
+// 			0: {
+// 				items: 1
+// 			},
+// 			600: {
+// 				items: 2
+// 			},
+// 			1000: {
+// 				items: 4
+// 			}
+// 		}
+// 	});
+// 	$('#series').owlCarousel({
+// 		loop: false,
+// 		margin: 10,
+// 		nav: true,
+// 		// rewind: true,
+// 		dots: true,
+// 		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+// 		autoplay: false,
+// 		// autoplaySpeed: 100,
+// 		// autoPlay: 20000,
+// 		// center:true,
+// 		responsive: {
 
-			0: {
-				items: 1
-			},
-			600: {
-				items: 2
-			},
-			1000: {
-				items: 4
-			}
-		}
-	});
-	$('#creators').owlCarousel({
-		loop: false,
-		// margin: 10,
-		nav: true,
-		// rewind: true,
-		dots: true,
-		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
-		autoplay: false,
-		// autoplaySpeed: 100,
-		// autoPlay: 20000,
-		// center:true,
-		responsive: {
+// 			0: {
+// 				items: 1
+// 			},
+// 			600: {
+// 				items: 2
+// 			},
+// 			1000: {
+// 				items: 4
+// 			}
+// 		}
+// 	});
+// 	$('#creators').owlCarousel({
+// 		loop: false,
+// 		// margin: 10,
+// 		nav: true,
+// 		// rewind: true,
+// 		dots: true,
+// 		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+// 		autoplay: false,
+// 		// autoplaySpeed: 100,
+// 		// autoPlay: 20000,
+// 		// center:true,
+// 		responsive: {
 
-			0: {
-				items: 1
-			},
-			600: {
-				items: 2
-			},
-			1000: {
-				items: 5
-			}
-		}
-	});
-	$('#clients').owlCarousel({
-		loop: false,
-		// margin: 10,
-		nav: true,
-		// rewind: true,
-		dots: true,
-		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
-		autoplay: false,
-		// autoplaySpeed: 100,
-		// autoPlay: 20000,
-		// center:true,
-		responsive: {
+// 			0: {
+// 				items: 1
+// 			},
+// 			600: {
+// 				items: 2
+// 			},
+// 			1000: {
+// 				items: 5
+// 			}
+// 		}
+// 	});
+// 	$('#clients').owlCarousel({
+// 		loop: false,
+// 		// margin: 10,
+// 		nav: true,
+// 		// rewind: true,
+// 		dots: true,
+// 		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+// 		autoplay: false,
+// 		// autoplaySpeed: 100,
+// 		// autoPlay: 20000,
+// 		// center:true,
+// 		responsive: {
 
-			0: {
-				items: 1
-			},
-			600: {
-				items: 2
-			},
-			1000: {
-				items: 2
-			}
-		}
-	});
-	$('#media').owlCarousel({
-		loop: false,
-		margin: 10,
-		nav: true,
-		// rewind: true,
-		dots: true,
-		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
-		autoplay: false,
-		// autoplaySpeed: 100,
-		// autoPlay: 20000,
-		// center:true,
-		responsive: {
+// 			0: {
+// 				items: 1
+// 			},
+// 			600: {
+// 				items: 2
+// 			},
+// 			1000: {
+// 				items: 2
+// 			}
+// 		}
+// 	});
+// 	$('#media').owlCarousel({
+// 		loop: false,
+// 		margin: 10,
+// 		nav: true,
+// 		// rewind: true,
+// 		dots: true,
+// 		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+// 		autoplay: false,
+// 		// autoplaySpeed: 100,
+// 		// autoPlay: 20000,
+// 		// center:true,
+// 		responsive: {
 
-			0: {
-				items: 3
-			},
-			600: {
-				items: 4
-			},
-			1000: {
-				items: 7
-			}
-		}
-	});
-	$('#university').owlCarousel({
-		loop: false,
-		margin: 10,
-		nav: true,
-		// rewind: true,
-		dots: true,
-		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
-		autoplay: false,
-		// autoplaySpeed: 100,
-		// autoPlay: 20000,
-		// center:true,
-		responsive: {
+// 			0: {
+// 				items: 3
+// 			},
+// 			600: {
+// 				items: 4
+// 			},
+// 			1000: {
+// 				items: 7
+// 			}
+// 		}
+// 	});
+// 	$('#university').owlCarousel({
+// 		loop: false,
+// 		margin: 10,
+// 		nav: true,
+// 		// rewind: true,
+// 		dots: true,
+// 		navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+// 		autoplay: false,
+// 		// autoplaySpeed: 100,
+// 		// autoPlay: 20000,
+// 		// center:true,
+// 		responsive: {
 
-			0: {
-				items: 1
-			},
-			600: {
-				items: 1
-			},
-			1000: {
-				items: 1
-			}
-		}
-	});
-});
+// 			0: {
+// 				items: 1
+// 			},
+// 			600: {
+// 				items: 1
+// 			},
+// 			1000: {
+// 				items: 1
+// 			}
+// 		}
+// 	});
+// });
 
 
 
