@@ -168,6 +168,7 @@ header .navbar .navbar-brand .logo {
 @media (max-width: 575.98px) {
   header .navbar .navbar-brand .logo {
     color: #111111;
+    font-size: 18px;
   }
 }
 
@@ -976,7 +977,15 @@ footer .social-media .social-links {
   text-align: center;
 }
 
-.copyrights .footer-cloud-img {
+.copyrights .footer-cloud {
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.copyrights .footer-cloud .footer-cloud-img {
   width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

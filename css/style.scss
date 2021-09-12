@@ -150,6 +150,7 @@ header {
 
                 @include xsm {
                     color: #111111;
+                    font-size: 18px;
                 }
             }
 
@@ -929,8 +930,14 @@ footer {
         margin-top: 2px;
         text-align: center;
     }
-    .footer-cloud-img{
+    .footer-cloud{
+        display: block;
         width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        .footer-cloud-img{
+            width: 100%;
+        }
     }
 }
 
