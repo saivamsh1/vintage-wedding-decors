@@ -560,9 +560,9 @@ header {
         border-radius: 4px;
         object-fit: cover;
         transition: all 450ms cubic-bezier(0.29, 0.9, 0.26, 1.21);
-        @include xsm{
-            height: 120px;
-        }
+        // @include xsm{
+        //     height: 120px;
+        // }
     }
 
     // @include xsm {
@@ -930,9 +930,7 @@ footer {
         text-align: center;
     }
     .footer-cloud-img{
-        @include xsm{
-            width: 100%;
-        }
+        width: 100%;
     }
 }
 
