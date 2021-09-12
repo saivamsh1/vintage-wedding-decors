@@ -481,121 +481,13 @@ header .navbar .nav-btn:hover {
   z-index: 0;
 }
 
-.gridboxes {
-  width: 100%;
-  height: auto;
-  padding: 6% 7%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  gap: 15px 15px;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  z-index: 9;
-}
-
-@media (max-width: 575.98px) {
-  .gridboxes {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    gap: 25px 25px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .gridboxes {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .gridboxes {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-.gridboxes .gridbox {
-  width: 180px;
-  height: 180px;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #f7f2ef;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-shadow: 9px 9px 20px rgba(170, 170, 170, 0.604), inset 9px 9px 20px rgba(170, 170, 170, 0.604), -9px -9px 20px rgba(255, 255, 255, 0.804), inset -9px -9px 20px rgba(255, 255, 255, 0.804);
-          box-shadow: 9px 9px 20px rgba(170, 170, 170, 0.604), inset 9px 9px 20px rgba(170, 170, 170, 0.604), -9px -9px 20px rgba(255, 255, 255, 0.804), inset -9px -9px 20px rgba(255, 255, 255, 0.804);
-  cursor: pointer;
-  -webkit-transition: all 400ms cubic-bezier(0.29, 0.9, 0.26, 1.21);
-  transition: all 400ms cubic-bezier(0.29, 0.9, 0.26, 1.21);
-}
-
-.gridboxes .gridbox .gridbox-img {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  border-radius: 4px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-transition: all 450ms cubic-bezier(0.29, 0.9, 0.26, 1.21);
-  transition: all 450ms cubic-bezier(0.29, 0.9, 0.26, 1.21);
-}
-
-@media (max-width: 575.98px) {
-  .gridboxes .gridbox {
-    width: 100px;
-    height: 100px;
-  }
-}
-
-.gridboxes .gridbox:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  border-radius: 10px;
-  -webkit-box-shadow: -9px -9px 20px rgba(170, 170, 170, 0.604), inset -9px -9px 20px rgba(170, 170, 170, 0.604), 9px 9px 20px rgba(255, 255, 255, 0.804), inset 9px 9px 20px rgba(255, 255, 255, 0.804);
-          box-shadow: -9px -9px 20px rgba(170, 170, 170, 0.604), inset -9px -9px 20px rgba(170, 170, 170, 0.604), 9px 9px 20px rgba(255, 255, 255, 0.804), inset 9px 9px 20px rgba(255, 255, 255, 0.804);
-}
-
-.gridboxes .gridbox:hover .gridbox-img {
-  border-radius: 4px;
-}
-
-.gridboxes .gridbox .gridbox-title {
-  font-family: Recoleta;
-  font-size: 20px;
-  color: #ffc92f;
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-
 .gridbox {
   width: 100%;
   height: auto;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -615,6 +507,13 @@ header .navbar .nav-btn:hover {
   cursor: pointer;
   -webkit-transition: all 400ms cubic-bezier(0.29, 0.9, 0.26, 1.21);
   transition: all 400ms cubic-bezier(0.29, 0.9, 0.26, 1.21);
+}
+
+@media (max-width: 575.98px) {
+  .gridbox {
+    margin: 0;
+    margin-bottom: 20px;
+  }
 }
 
 .gridbox .gridbox-img {
@@ -627,6 +526,12 @@ header .navbar .nav-btn:hover {
      object-fit: cover;
   -webkit-transition: all 450ms cubic-bezier(0.29, 0.9, 0.26, 1.21);
   transition: all 450ms cubic-bezier(0.29, 0.9, 0.26, 1.21);
+}
+
+@media (max-width: 575.98px) {
+  .gridbox .gridbox-img {
+    height: 120px;
+  }
 }
 
 .gridbox:hover {
