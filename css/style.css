@@ -130,7 +130,9 @@ header .navbar.blackto {
 
 @media (max-width: 575.98px) {
   header .navbar.blackto {
-    padding: 3% 6%;
+    padding: 5% 4%;
+    top: 0;
+    background-color: #ffffff;
   }
 }
 
@@ -140,6 +142,13 @@ header .navbar.blackto .navbar-brand .logo {
 
 header .navbar.blackto .navbar-brand .logo .logoimage {
   position: relative;
+}
+
+@media (max-width: 575.98px) {
+  header .navbar.blackto .navbar-brand .logo .logoimage {
+    position: absolute;
+    top: 20%;
+  }
 }
 
 header .navbar.blackto .navbar-brand .logo .logoimage.logohide1 {
@@ -164,10 +173,6 @@ header .navbar .navbar-brand {
 }
 
 header .navbar .navbar-brand .logo {
-  color: #ffc92f;
-  font-family: Recoleta;
-  font-weight: 100;
-  font-size: 28px;
   margin-bottom: 0;
 }
 
@@ -186,13 +191,6 @@ header .navbar .navbar-brand .logo .logoimage.logohide1 {
 
 header .navbar .navbar-brand .logo .logoimage.logohide2 {
   display: none;
-}
-
-@media (max-width: 575.98px) {
-  header .navbar .navbar-brand .logo {
-    color: #111111;
-    font-size: 18px;
-  }
 }
 
 header .navbar .navbar-brand .media-body {
@@ -289,6 +287,8 @@ header .navbar .nav-btn:hover {
   bottom: 0;
   left: 0;
   background-image: url("../images/clouds.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 32%;
 }
